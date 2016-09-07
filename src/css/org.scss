@@ -268,10 +268,11 @@ pre {
   border: 1px solid #ccc;
   box-shadow: 3px 3px 3px #eee;
   font-family: $monospace;
-  margin: 1.2em;
+  margin: 0.4em;
   padding: 8pt;
   overflow: auto;
   font-size: $code-size;
+  word-wrap: normal;
 }
 
 pre.src {
@@ -323,6 +324,10 @@ pre.src-html:before {
   border: 2px solid gray;
   margin: 10px;
   padding: 10px;
+}
+
+#content {
+  word-wrap: break-word;
 }
 
 #org-div-home-and-up {
