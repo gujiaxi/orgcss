@@ -1,11 +1,11 @@
 @import "include-media";
 
-$sans-serif: Helvetica, sans-serif;
+$sans-serif: Arial, Helvetica, sans-serif;
 $serif: Georgia, serif;
-$monospace: Lucida Console, monospace;
-$code-size: 80%;
+$monospace: Lucida Console, Monaco, monospace;
+$code-size: 90%;
 $smaller: 90%;
-$max-width: 700px;
+$max-width: 800px;
 
 body {
   width: 95%;
@@ -15,7 +15,7 @@ body {
 
   @include media('>tablet') {
     width: $max-width;
-    margin-left: 5vw;
+    margin: auto;
   }
 }
 
@@ -251,6 +251,10 @@ kbd {
   text-decoration: underline;
 }
 
+#postamble {
+  border-top: 1px solid gray;
+}
+
 #postamble p, #preamble p {
   font-size: $smaller;
   margin: .2em;
@@ -266,13 +270,13 @@ pre {
   font-family: $monospace;
   margin: 1.2em;
   padding: 8pt;
+  overflow: auto;
+  font-size: $code-size;
 }
 
 pre.src {
-  overflow: auto;
   padding-top: 1.2em;
   position: relative;
-  font-size: $code-size;
 }
 
 pre.src:before {
@@ -328,7 +332,7 @@ pre.src-html:before {
 }
 
 .linenr {
-  font-size: smaller;
+  font-size: $smaller;
 }
 
 .code-highlighted {
@@ -341,13 +345,4 @@ pre.src-html:before {
 
 #bibliography table {
   width: 100%;
-}
-
-.creator {
-  display: block;
-
-  @include media('>tablet') {
-    display: inline;
-    float: right;
-  }
 }
