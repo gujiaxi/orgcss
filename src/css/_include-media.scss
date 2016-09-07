@@ -237,7 +237,7 @@ $im-no-media-expressions: ('screen', 'portrait', 'landscape') !default;
 
       // scss-lint:disable SpaceAroundOperator
       @if ($prefix == 'max' and $value <= $no-media-breakpoint-value) or
-          ($prefix == 'min' and $value > $no-media-breakpoint-value) {
+      ($prefix == 'min' and $value > $no-media-breakpoint-value) {
         @return false;
       }
     } @else if not index($im-no-media-expressions, $condition) {
@@ -549,14 +549,14 @@ $im-no-media-expressions: ('screen', 'portrait', 'landscape') !default;
 @mixin media($conditions...) {
   // scss-lint:disable SpaceAroundOperator
   @if ($im-media-support and length($conditions) == 0) or
-      (not $im-media-support and im-intercepts-static-breakpoint($conditions...)) {
+  (not $im-media-support and im-intercepts-static-breakpoint($conditions...)) {
     @content;
   } @else if ($im-media-support and length($conditions) > 0) {
     @media #{unquote(parse-expression(nth($conditions, 1)))} {
-      // Recursive call
-      @include media(slice($conditions, 2)...) {
-        @content;
-      }
-    }
+// Recursive call
+@include media(slice($conditions, 2)...) {
+  @content;
+}
+}
   }
 }

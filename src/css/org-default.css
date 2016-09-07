@@ -1,184 +1,184 @@
 .title {
-    margin-bottom: .2em;
-    text-align: center;
+  margin-bottom: .2em;
+  text-align: center;
 }
 .subtitle {
-    font-size: medium;
-    font-weight: bold;
-    margin-top: 0;
-    text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
 }
 .todo {
-    color: red;
-    font-family: monospace;
+  color: red;
+  font-family: monospace;
 }
 .done {
-    color: green;
-    font-family: monospace;
+  color: green;
+  font-family: monospace;
 }
 .priority {
-    color: orange;
-    font-family: monospace;
+  color: orange;
+  font-family: monospace;
 }
 .tag {
-    background-color: #eee;
-    font-family: monospace;
-    font-size: 80%;
-    font-weight: normal;
-    padding: 2px;
+  background-color: #eee;
+  font-family: monospace;
+  font-size: 80%;
+  font-weight: normal;
+  padding: 2px;
 }
 .timestamp {
-    color: #bebebe;
+  color: #bebebe;
 }
 .timestamp-kwd {
-    color: #5f9ea0;
+  color: #5f9ea0;
 }
 .org-right {
-    margin-left: auto;
-    margin-right: 0px;
-    text-align: right;
+  margin-left: auto;
+  margin-right: 0px;
+  text-align: right;
 }
 .org-left {
-    margin-left: 0px;
-    margin-right: auto;
-    text-align: left;
+  margin-left: 0px;
+  margin-right: auto;
+  text-align: left;
 }
 .org-center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #postamble p, #preamble p {
-    font-size: 90%;
-    margin: .2em;
+  font-size: 90%;
+  margin: .2em;
 }
 p.verse {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    font-family: monospace;
-    margin: 1.2em;
-    overflow: auto;
-    padding: 8pt;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 3px #eee;
+  font-family: monospace;
+  margin: 1.2em;
+  overflow: auto;
+  padding: 8pt;
 }
 pre.src {
-    overflow: visible;
-    padding-top: 1.2em;
-    position: relative;
+  overflow: visible;
+  padding-top: 1.2em;
+  position: relative;
 }
 pre.src:before {
-    background-color: white;
-    border: 1px solid black;
-    display: none;
-    padding: 3px;
-    position: absolute;
-    right: 10px;
-    top: -10px;
+  background-color: white;
+  border: 1px solid black;
+  display: none;
+  padding: 3px;
+  position: absolute;
+  right: 10px;
+  top: -10px;
 }
 pre.src:hover:before {
-    display: inline;
+  display: inline;
 }
 pre.src-sh:before {
-    content: 'sh';
+  content: 'sh';
 }
 pre.src-bash:before {
-    content: 'sh';
+  content: 'sh';
 }
 pre.src-emacs-lisp:before {
-    content: 'Emacs Lisp';
+  content: 'Emacs Lisp';
 }
 pre.src-R:before {
-    content: 'R';
+  content: 'R';
 }
 pre.src-perl:before {
-    content: 'Perl';
+  content: 'Perl';
 }
 pre.src-java:before {
-    content: 'Java';
+  content: 'Java';
 }
 pre.src-sql:before {
-    content: 'SQL';
+  content: 'SQL';
 }
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 caption.t-above {
-    caption-side: top;
+  caption-side: top;
 }
 caption.t-bottom {
-    caption-side: bottom;
+  caption-side: bottom;
 }
 td, th {
-    vertical-align: top;
+  vertical-align: top;
 }
 th.org-right {
-    text-align: center;
+  text-align: center;
 }
 th.org-left {
-    text-align: center;
+  text-align: center;
 }
 th.org-center {
-    text-align: center;
+  text-align: center;
 }
 td.org-right {
-    text-align: right;
+  text-align: right;
 }
 td.org-left {
-    text-align: left;
+  text-align: left;
 }
 td.org-center {
-    text-align: center;
+  text-align: center;
 }
 dt {
-    font-weight: bold;
+  font-weight: bold;
 }
 .footpara {
-    display: inline;
+  display: inline;
 }
 .footdef {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 .figure {
-    padding: 1em;
+  padding: 1em;
 }
 .figure p {
-    text-align: center;
+  text-align: center;
 }
 .inlinetask {
-    background: #ffffcc;
-    border: 2px solid gray;
-    margin: 10px;
-    padding: 10px;
+  background: #ffffcc;
+  border: 2px solid gray;
+  margin: 10px;
+  padding: 10px;
 }
 #org-div-home-and-up {
-    font-size: 70%;
-    text-align: right;
-    white-space: nowrap;
+  font-size: 70%;
+  text-align: right;
+  white-space: nowrap;
 }
 textarea {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 .linenr {
-    font-size: smaller;
+  font-size: smaller;
 }
 .code-highlighted {
-    background-color: #ffff00;
+  background-color: #ffff00;
 }
 .org-info-js_info-navigation {
-    border-style: none;
+  border-style: none;
 }
 #org-info-js_console-label {
-    font-size: 10px;
-    font-weight: bold;
-    white-space: nowrap;
+  font-size: 10px;
+  font-weight: bold;
+  white-space: nowrap;
 }
 .org-info-js_search-highlight {
-    background-color: #ffff00;
-    color: #000000;
-    font-weight: bold;
+  background-color: #ffff00;
+  color: #000000;
+  font-weight: bold;
 }
